@@ -3,7 +3,7 @@ import codeImg from "../assets/code.jpg";
 import { checklistItems } from "../constants";
 export default function Workflow() {
   return (
-    <div className="mt-2">
+    <div className="mt-20">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-4 tracking-wide">
         Accelerate your{" "}
         <span className="bg-gradient-to-r from-yellow-500 to-yellow-800 text-transparent bg-clip-text">

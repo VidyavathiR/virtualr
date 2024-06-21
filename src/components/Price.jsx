@@ -2,7 +2,7 @@ import { CheckSquare2 } from "lucide-react";
 import { pricingOptions } from "../constants";
 export default function Price() {
   return (
-    <div className="mt-2">
+    <div className="mt-20">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide">
         Pricing
       </h2>

@@ -42,7 +42,7 @@ function App() {
     <Router>
       <div>
         <Navbar />
-        <div className="max-w-7xl mx-auto pt-20 px-6">
+        <div className="max-w-7xl mx-auto px-6">
           <Routes>
             <Route path="/" element={<HeroSection />} />
             <Route path="/features" element={<FeatureSection />} />
