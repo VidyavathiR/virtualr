@@ -48,7 +48,8 @@ export default function Navbar() {
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">
-                  <a href={item.href}>{item.label}</a>
+                  {/* <a href={item.href}>{item.label}</a> */}
+                  <Link to={item.href}>{item.label}</Link>
                 </li>
               ))}
             </ul>
